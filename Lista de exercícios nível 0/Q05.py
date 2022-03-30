@@ -2,8 +2,8 @@
 
 def media(valor1, valor2, valor3):
     soma = valor1 + valor2 + valor3
-    media = soma/3
-    return media
+    m = soma/3
+    return m
 
 
 #
