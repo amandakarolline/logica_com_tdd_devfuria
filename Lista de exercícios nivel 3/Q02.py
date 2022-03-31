@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 def somarDigitos(numero):
-    palavra = str(numero)
     soma = 0
-    for i in palavra:
-        soma += int(i)
+    while numero != 0:
+        soma += numero % 10
+        numero //= 10
     return soma
 
 
