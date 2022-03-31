@@ -19,7 +19,7 @@ def toFahrenheit(celsius):
 #
 # Testes
 #
-celsius    = 100
+celsius = 100
 fahrenheit = 212
 
 assert celsius == toCelsius(fahrenheit)
