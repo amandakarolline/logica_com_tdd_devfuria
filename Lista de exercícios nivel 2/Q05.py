@@ -13,14 +13,14 @@ def delta(a, b, c):
 # Retorna o valor da primeira raiz
 #
 def raiz1(a, b, c):
-    return -b + math.sqrt(delta(a,b,c)) / 2 * a
+    return -b + math.sqrt(delta(a, b, c)) / 2 * a
 
 
 #
 # Retorna o valor da segunda raiz
 #
 def raiz2(a, b, c):
-    return -b - math.sqrt(delta(a,b,c)) / 2 * a
+    return -b - math.sqrt(delta(a, b, c)) / 2 * a
 
 
 #
